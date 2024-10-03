@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('22.png'); /* Set the background image */
+    background-size: cover; /* Cover the entire page */
+    background-repeat: repeat; /* Repeat the image */
+    color: white; /* Default text color */
+    text-align: center; /* Center-align text */
+}
+
+.top-gif img,
+.bottom-gif img {
+    width: 150px; /* Set width for the GIFs */
+    height: 150px; /* Set height for the GIFs */
+}
+
+.button-container {
+    margin: 20px 0; /* Space above and below buttons */
+}
+
+.button {
+    display: inline-block;
+    background-color: pink; /* Button background color */
+    color: yellow; /* Button text color */
+    font-size: 20px; /* Button text size */
+    padding: 10px 20px; /* Padding inside buttons */
+    margin: 10px; /* Space between buttons */
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 5px; /* Rounded corners for buttons */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.button:hover {
+    background-color: darkmagenta; /* Darker color on hover */
+}
+
+.bottom-gif {
+    margin-top: 20px; /* Space above bottom GIF */
+}
+
+.bottom-gif p {
+    margin-top: 10px; /* Space above text below the GIF */
+    font-size: 18px; /* Font size for the text */
+}
