@@ -1,44 +1,70 @@
-body {
+* {
     margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-image: url('22.png'); /* Set the background image */
-    background-size: cover; /* Cover the entire page */
-    background-repeat: repeat; /* Repeat the image */
-    color: white; /* Default text color */
-    text-align: center; /* Center-align text */
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.top-gif img,
-.bottom-gif img {
-    width: 150px; /* Set width for the GIFs */
-    height: 150px; /* Set height for the GIFs */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('22.png');
+    background-repeat: repeat;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.title {
+    margin-bottom: 50px;
+}
+
+.curator-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+}
+
+.tagline {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.gif-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.side-gif, .bottom-gif {
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
 }
 
 .button-container {
-    margin: 20px 0; /* Space above and below buttons */
+    margin: 30px 0;
 }
 
 .button {
     display: inline-block;
-    background-color: pink; /* Button background color */
-    color: yellow; /* Button text color */
-    font-size: 20px; /* Button text size */
-    padding: 10px 20px; /* Padding inside buttons */
-    margin: 10px; /* Space between buttons */
-    text-decoration: none; /* Remove underline from links */
-    border-radius: 5px; /* Rounded corners for buttons */
-    transition: background-color 0.3s; /* Smooth transition */
+    background-color: orange;
+    color: yellow;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    transition: background-color 0.3s;
 }
 
 .button:hover {
-    background-color: darkmagenta; /* Darker color on hover */
+    background-color: #ff7f00;
 }
 
-.bottom-gif {
-    margin-top: 20px; /* Space above bottom GIF */
-}
-
-.bottom-gif p {
-    margin-top: 10px; /* Space above text below the GIF */
-    font-size: 18px; /* Font size for the text */
+.footer-text {
+    margin-top: 30px;
+    font-size: 20px;
 }
